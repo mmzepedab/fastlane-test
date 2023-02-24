@@ -12,7 +12,7 @@ platform :ios do
         project: "FastlaneTest.xcodeproj",
         clean: options[:clean],
         skip_package_dependencies_resolution: options[:skip_package_dependencies_resolution],
-        verbose: true
+        verbose: true,
       )
     end
 end
