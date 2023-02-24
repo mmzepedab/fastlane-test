@@ -13,6 +13,7 @@ platform :ios do
         clean: options[:clean],
         skip_package_dependencies_resolution: options[:skip_package_dependencies_resolution],
         verbose: true
+        destination: 'platform=iOS Simulator,name=iPhone 12'
       )
     end
 end
